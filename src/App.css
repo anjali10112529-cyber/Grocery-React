@@ -37,6 +37,12 @@
   color: orangered;
 }
 
+.mega-menu {
+  max-height: 80vh;   /* limit height to viewport */
+  overflow-y: auto;   /* enable vertical scroll */
+}
+
+
 
 @keyframes logo-spin {
   from {

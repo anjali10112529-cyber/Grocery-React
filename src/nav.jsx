@@ -8,7 +8,7 @@ function Navbar(){
         <nav className="navbar navbar-expand-md navbar-light bg-white fixed-top">
             <div className="container-fluid ">
                 <img src={logo} width="200" className='img-fluid'></img>
-                <button className="navbar-toggle d-md-none" type='button' data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label='Toggle navigation'>
+                <button className="navbar-toggler d-md-none" type='button' data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label='Toggle navigation'>
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarContent">
