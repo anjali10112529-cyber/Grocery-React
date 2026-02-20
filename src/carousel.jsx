@@ -5,7 +5,7 @@ import carousel3 from './assets/carousel3.jpg';
 function Carousel(){
     return(
        
-        <div className="container-fluid p-0 carousel slide" data-bs-ride="carousel" id="carousel">
+        <div className="container-fluid pt-0 carousel slide mt-0" data-bs-ride="carousel" id="carousel">
             <div className='carousel-indicators'>
                 <button type='button' data-bs-target="#carousel" data-bs-slide-to="0" className='active'></button>
                 <button type='button' data-bs-target="#carousel" data-bs-slide-to="1"></button>

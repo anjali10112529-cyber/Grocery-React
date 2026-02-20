@@ -57,7 +57,6 @@
 
 
 
-
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -69,8 +68,12 @@
 
 @media(max-width:500px){
   .logo{
-    width:100;
+    width:100px;
     
+  }
+  .carousel-item img{
+    height: 200px;
+   object-fit:cover;
   }
 }
 
