@@ -7,11 +7,13 @@ function Navbar(){
     return(
         <nav className="navbar navbar-expand-md navbar-light bg-white fixed-top">
             <div className="container-fluid ">
-                <img src={logo} width="200" className='img-fluid'></img>
+                <div className="">
+                <img src={logo} width="200" className='img-fluid logo'></img>
                 <button className="navbar-toggler d-md-none" type='button' data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label='Toggle navigation'>
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse" id="navbarContent">
+                </div>
+                <div className="collapse navbar-collapse " id="navbarContent">
                 <ul className='navbar-nav mx-auto '>                    
                     <li className='nav-item dropdown'>
                         <a href="#" className='nav-link dropdown-toggle p-3 fw-bold' data-bs-toggle="dropdown">HOME</a>
@@ -106,17 +108,17 @@ function Navbar(){
                     </li>
                 </ul>
                 </div>
-                <ul className='nav-item d-none d-sm-flex fs-5 '>
-                    <li className='p-3 nav-link'>
+                <ul className='nav-item d-flex fs-6 fs-md-5  '>
+                    <li className='p-2 p-md-3 nav-link'>
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </li>
-                    <li className='p-3 nav-link'>
+                    <li className='p-2 p-md-3 nav-link'>
                         <i class="fa-regular fa-user"></i>
                     </li>
-                    <li className="p-3 nav-link">
+                    <li className="p-2 p-md-3 nav-link">
                         <i class="fa-regular fa-heart"></i>
                     </li>
-                    <li className='p-3 nav-link'>
+                    <li className='p-2 p-md-3  nav-link'>
                         <i class="fa-solid fa-bag-shopping"></i>
                     </li>
                 </ul>
