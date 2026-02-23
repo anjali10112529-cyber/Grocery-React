@@ -51,7 +51,17 @@
 
 .mega-menu {
   max-height: 100vh;   /* limit height to viewport */
-  overflow-y: auto;   /* enable vertical scroll */
+  
+}
+
+.proIcon{
+ font-size: 50px;
+ padding: 0px;
+ height: 100px;
+ width: 100px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
 
